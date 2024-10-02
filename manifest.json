@@ -1,0 +1,22 @@
+{
+    "content_scripts" : [
+        {
+            "js" : ["scripts/AntiNeo.js"],
+            "matches" : ["*://vitvellore312.examly.io/*"]
+        }
+    ],
+    "manifest_version": 3,
+    "name" : "AntiNeo",
+    "description" : "Anti paste-blocking for our favourite website",
+    "version" : "1.0",
+    "author" : "RH",
+    "icons": {
+        "48": "AntiNeo.png",
+        "96": "AntiNeo.png"
+      },
+
+    "action" : {
+        "default_popup" : "AntiNeo.html"
+    }
+    
+}
